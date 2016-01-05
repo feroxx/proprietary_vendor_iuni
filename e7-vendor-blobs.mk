@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
 	$(LOCAL_PATH)/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	$(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
-	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-pp-daemon \
+	$(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
 	$(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -92,7 +92,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 	$(LOCAL_PATH)/proprietary/lib/hw:system/lib/hw \
-	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+	$(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
