@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS := vendor/gionee/e7/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/iuni/u2/overlay
 
 PRODUCT_PACKAGES += libtime_genoff
 
