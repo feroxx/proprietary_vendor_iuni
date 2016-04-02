@@ -353,6 +353,20 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_q3a_special.so:system/vendor/lib/libmmcamera2_q3a_special.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libt2tmanager.so:system/vendor/lib/libt2tmanager.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
