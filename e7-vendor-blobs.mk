@@ -95,9 +95,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/lights.msm8974.so:system/lib/hw/lights.msm8974.so \
-	$(LOCAL_PATH)/proprietary/lib/hw/libmmcamera_chromaflash_lib:system/lib/hw/libmmcamera_chromaflash_lib \
-	$(LOCAL_PATH)/proprietary/lib/hw/libmmcamera_optizoom_lib:system/lib/hw/libmmcamera_optizoom_lib \
-	$(LOCAL_PATH)/proprietary/lib/hw/libmmcamera_ubifocus_lib:system/lib/hw/libmmcamera_ubifocus_lib \
 	$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	$(LOCAL_PATH)/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	$(LOCAL_PATH)/proprietary/lib/libgn_camera_feature.so:system/lib/libgn_camera_feature.so \
@@ -353,6 +350,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_chromaflash_lib:system/vendor/lib/libmmcamera_chromaflash_lib \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_optizoom_lib:system/vendor/lib/libmmcamera_optizoom_lib \
+	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ubifocus_lib:system/vendor/lib/libmmcamera_ubifocus_lib \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
