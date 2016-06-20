@@ -18,10 +18,10 @@ LOCAL_PATH := vendor/gm/e7
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 	$(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
-        $(LOCAL_PATH)/proprietary/bin/charger_monitor:system/bin/charger_monitor \
-        $(LOCAL_PATH)/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-        $(LOCAL_PATH)/proprietary/bin/qrngd:system/bin/qrngd \
-        $(LOCAL_PATH)/proprietary/bin/qrngp:system/bin/qrngp \
+    $(LOCAL_PATH)/proprietary/bin/charger_monitor:system/bin/charger_monitor \
+    $(LOCAL_PATH)/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    $(LOCAL_PATH)/proprietary/bin/qrngd:system/bin/qrngd \
+    $(LOCAL_PATH)/proprietary/bin/qrngp:system/bin/qrngp \
 	$(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
 	$(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -141,8 +141,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -158,8 +158,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -213,40 +213,40 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/lib/rfsa/adsp/libfastcvadsp_skel.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/lib/rfsa/adsp/libdspCV_skel.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_common.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_common.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_120fps.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_120fps.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_60fps.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_60fps.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_90fps.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_90fps.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot_hd.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_preview.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_preview.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_snapshot.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_snapshot.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_video.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_video.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_video_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_video_hd.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_zsl.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_zsl.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_common.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_common.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_default_video.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_default_video.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_liveshot.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_liveshot.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_preview.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_common.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_120fps.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_60fps.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_90fps.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_liveshot_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_preview.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_preview_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_snapshot.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_video.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_video_hd.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov16825_zsl.so:system/vendor/lib/libchromatix_gn_sunny_ov16825_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_common.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_default_video.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_liveshot.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov4688_preview.so:system/vendor/lib/libchromatix_gn_sunny_ov4688_preview.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_common.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_common.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_default_video.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_default_video.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gn_sunny_ov8835_preview.so:system/vendor/lib/libchromatix_gn_sunny_ov8835_preview.so \
@@ -398,5 +398,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
-        $(LOCAL_PATH)/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so
