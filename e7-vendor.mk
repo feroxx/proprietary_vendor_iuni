@@ -14,8 +14,8 @@
 
 DEVICE_PACKAGE_OVERLAYS := vendor/iuni/u2/overlay
 
-PRODUCT_PACKAGES += \\
-    libtime_genoff \\
+PRODUCT_PACKAGES += \
+    libtime_genoff \
     libril
 
 $(call inherit-product, vendor/gm/e7/e7-vendor-blobs.mk)
