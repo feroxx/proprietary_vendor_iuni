@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
 	$(LOCAL_PATH)/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
 	$(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
 	$(LOCAL_PATH)/proprietary/lib/libtouchless_a3d.so:system/lib/libtouchless_a3d.so \
 	$(LOCAL_PATH)/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
 	$(LOCAL_PATH)/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
