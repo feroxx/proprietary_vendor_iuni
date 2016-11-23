@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/ssr_diag:system/bin/ssr_diag \
 	$(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	$(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
-	$(LOCAL_PATH)/proprietary/bin/wcnss_service:system/bin/wcnss_service \
 	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
 	$(LOCAL_PATH)/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
@@ -83,15 +82,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
 	$(LOCAL_PATH)/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
 	$(LOCAL_PATH)/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-	$(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
 	$(LOCAL_PATH)/proprietary/etc/firmware/wlan:system/etc/firmware/wlan \
 	$(LOCAL_PATH)/proprietary/etc/firmware/wlan/prima:system/etc/firmware/wlan/prima \
 	$(LOCAL_PATH)/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
