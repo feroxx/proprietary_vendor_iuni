@@ -232,7 +232,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/libsensor_user_cal_gn.so:system/vendor/lib/libsensor_user_cal_gn.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libsensor_test2.so:system/vendor/lib/libsensor_test2.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
