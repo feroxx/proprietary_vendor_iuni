@@ -89,8 +89,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 	$(LOCAL_PATH)/proprietary/lib/hw:system/lib/hw \
 	$(LOCAL_PATH)/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
-	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \	
-        $(LOCAL_PATH)/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
+	$(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	$(LOCAL_PATH)/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
 	$(LOCAL_PATH)/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
 	$(LOCAL_PATH)/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
 	$(LOCAL_PATH)/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \	
