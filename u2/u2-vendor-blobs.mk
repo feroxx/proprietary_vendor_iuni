@@ -94,6 +94,7 @@ $(LOCAL_PATH)/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
 $(LOCAL_PATH)/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
 $(LOCAL_PATH)/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
 $(LOCAL_PATH)/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+$(LOCAL_PATH)/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
 $(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 $(LOCAL_PATH)/proprietary/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
 $(LOCAL_PATH)/proprietary/lib/libgn_camera_feature.so:system/lib/libgn_camera_feature.so \
@@ -106,7 +107,7 @@ $(LOCAL_PATH)/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
 $(LOCAL_PATH)/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
 $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 $(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-$(LOCAL_PATH)/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+$(LOCAL_PATH)/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
 $(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
 $(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 $(LOCAL_PATH)/proprietary/lib/libtouchless_a3d.so:system/lib/libtouchless_a3d.so \
