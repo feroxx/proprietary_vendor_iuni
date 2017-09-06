@@ -17,7 +17,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/iuni/u2/overlay
 PRODUCT_PACKAGES += \
     libmdmdetect \
     libwpa_qmi_eap_proxy \
-    libTimeService \
     libdiag \
     libdsutils \
     libidl \
