@@ -15,6 +15,17 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/iuni/u2/overlay
 
 PRODUCT_PACKAGES += \
+    libmdmdetect \
+    libwpa_qmi_eap_proxy \
+    libTimeService \
+    libdiag \
+    libdsutils \
+    libidl \
+    liblisten \
+    libqcci_legacy \
+    libqmi \
+    libqmi_client_qmux \
+    libqmiservices \
     libtime_genoff
 
 $(call inherit-product, vendor/iuni/u2/u2-vendor-blobs.mk)
