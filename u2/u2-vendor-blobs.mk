@@ -127,8 +127,6 @@ $(LOCAL_PATH)/proprietary/etc/gn_camera_feature/res/picture_frame/gn_print_club_
 $(LOCAL_PATH)/proprietary/etc/gn_camera_feature/res/picture_frame/gn_print_club_8_640.9.png:system/etc/gn_camera_feature/res/picture_frame/gn_print_club_8_640.9.png \
 $(LOCAL_PATH)/proprietary/etc/gn_camera_feature/res/picture_frame/gn_print_club_9_640.9.png:system/etc/gn_camera_feature/res/picture_frame/gn_print_club_9_640.9.png \
 $(LOCAL_PATH)/proprietary/etc/gn_camera_feature/res/picture_frame/gn_print_club_10_640.9.png:system/etc/gn_camera_feature/res/picture_frame/gn_print_club_10_640.9.png \
-$(LOCAL_PATH)/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-$(LOCAL_PATH)/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 $(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 $(LOCAL_PATH)/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
@@ -163,8 +161,25 @@ $(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/wi
 $(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
 $(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
 $(LOCAL_PATH)/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-$(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_I2C_NCD_Unsigned_configdata.ncd \
-$(LOCAL_PATH)/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0079_Generic_PreI2C_NCD_Unsigned_configdata.ncd \
+$(LOCAL_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so 
+$(LOCAL_PATH)/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+$(LOCAL_PATH)/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
 $(LOCAL_PATH)/proprietary/vendor/lib/sensors.u2.so:system/vendor/lib/sensors.u2.so \
 $(LOCAL_PATH)/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
 $(LOCAL_PATH)/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
