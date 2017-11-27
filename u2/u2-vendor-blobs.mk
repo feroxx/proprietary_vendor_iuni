@@ -132,6 +132,7 @@ $(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 $(LOCAL_PATH)/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
 $(LOCAL_PATH)/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
 $(LOCAL_PATH)/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
+$(LOCAL_PATH)/proprietary/lib/libAuroraImageProcess.so:system/lib/libAuroraImageProcess.so \
 $(LOCAL_PATH)/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
 $(LOCAL_PATH)/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
 $(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
