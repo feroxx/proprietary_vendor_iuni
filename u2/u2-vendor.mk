@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     libqmi \
     libqmi_client_qmux \
     libqmiservices \
-    libtime_genoff
+    libtime_genoff \
+	TimeService
 
 $(call inherit-product, vendor/iuni/u2/u2-vendor-blobs.mk)
