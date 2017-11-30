@@ -23,11 +23,8 @@ $(LOCAL_PATH)/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 $(LOCAL_PATH)/proprietary/bin/qrngd:system/bin/qrngd \
 $(LOCAL_PATH)/proprietary/bin/qrngp:system/bin/qrngp \
 $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-$(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
 $(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-$(LOCAL_PATH)/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
-$(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 $(LOCAL_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
 $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
