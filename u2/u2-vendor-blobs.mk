@@ -132,7 +132,6 @@ $(LOCAL_PATH)/proprietary/lib/libarcplatform.so:system/lib/libarcplatform.so \
 $(LOCAL_PATH)/proprietary/lib/libAuroraImageProcess.so:system/lib/libAuroraImageProcess.so \
 $(LOCAL_PATH)/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
 $(LOCAL_PATH)/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
-$(LOCAL_PATH)/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 $(LOCAL_PATH)/proprietary/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
 $(LOCAL_PATH)/proprietary/lib/libgn_camera_feature.so:system/lib/libgn_camera_feature.so \
 $(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
