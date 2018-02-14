@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/etc/gn_camera_feature,system/etc/gn_camera_feature) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/lib,system/lib) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/lib/hw,system/lib/hw) \
-    $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/bin,system/bin) \
+    $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/bin,system/vendor/bin) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/vendor/lib/egl,system/vendor/lib/egl) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/vendor/lib/hw,system/vendor/lib/hw) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/vendor/lib,system/vendor/lib) \
