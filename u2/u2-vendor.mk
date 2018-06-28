@@ -37,4 +37,5 @@ PRODUCT_PACKAGES += \
     libqmi \
     libqmi_client_qmux \
     libqmiservices \
+    libtime_genoff \
     TimeService
