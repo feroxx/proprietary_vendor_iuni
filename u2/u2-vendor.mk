@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     $(LOCAL_PATH)/proprietary/etc/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
     $(LOCAL_PATH)/proprietary/etc/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/sensors.u2.so:system/vendor/lib/sensors.u2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
