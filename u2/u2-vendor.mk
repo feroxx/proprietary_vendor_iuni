@@ -28,8 +28,8 @@
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/etc/acdbdata,system/etc/acdbdata) \
-    $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/etc/data,system/etc/data) \
-    $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/etc/firmware,system/etc/firmware) \
+    $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/etc/data,system/vendor/etc/data) \
+    $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/etc/firmware,system/vendor/firmware) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/etc/gn_camera_feature,system/etc/gn_camera_feature) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/lib,system/lib) \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/lib/hw,system/lib/hw) \
@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/vendor/lib/rfsa,system/vendor/lib/rfsa)
 
 PRODUCT_PACKAGES += \
-    libmdmdetect \
     libwpa_qmi_eap_proxy \
     libdiag \
     libdsutils \
