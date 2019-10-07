@@ -41,13 +41,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/vendor/lib/rfsa,$(TARGET_COPY_OUT_VENDOR)/lib/rfsa)
 
 PRODUCT_PACKAGES += \
-    libwpa_qmi_eap_proxy \
-    libdiag \
-    libdsutils \
-    libidl \
-    liblisten \
-    libqcci_legacy \
-    libqmi \
-    libqmi_client_qmux \
-    libqmiservices \
+    libmm-abl \
+    libtime_genoff \
     TimeService
