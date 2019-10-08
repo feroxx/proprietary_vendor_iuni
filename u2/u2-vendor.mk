@@ -41,6 +41,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/iuni/u2/proprietary/vendor/lib/rfsa,$(TARGET_COPY_OUT_VENDOR)/lib/rfsa)
 
 PRODUCT_PACKAGES += \
-    libmm-abl \
-    libtime_genoff \
     TimeService
